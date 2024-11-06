@@ -1470,7 +1470,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6880979870543280219}
   - component: {fileID: 3546739274297575215}
-  - component: {fileID: 3858046905697805682}
   m_Layer: 0
   m_Name: Ch43
   m_TagString: Untagged
@@ -1517,20 +1516,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &3858046905697805682
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5812871809447399532}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1df1eec7787e7884b88404e678d004b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  agent: {fileID: 3546739274297575215}
-  animator: {fileID: 398923008939961432}
 --- !u!1 &5968934394542419051
 GameObject:
   m_ObjectHideFlags: 0
@@ -1896,7 +1881,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bc9557becad11045b3931cfefb1bb3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ctrl: {fileID: 3858046905697805682}
+  ctrl: {fileID: 0}
   path: {fileID: 0}
   currentPointIndex: 0
   currentPoint: {fileID: 0}
