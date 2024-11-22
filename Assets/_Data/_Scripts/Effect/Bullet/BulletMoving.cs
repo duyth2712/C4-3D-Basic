@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BulletMoving : TempBehavior
 {
-    public float speed = 10f;
+    public float speed = 20f;
     protected virtual void Update()
     {
         this.Moving();
@@ -12,6 +12,6 @@ public class BulletMoving : TempBehavior
 
     protected virtual void Moving()
     {
-        transform.parent.Translate(Vector3.forward * this.speed * Time.deltaTime);
+        transform.parent.Translate(this.speed * Time.deltaTime * Vector3.forward);
     }
 }

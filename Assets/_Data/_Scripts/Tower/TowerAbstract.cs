@@ -4,6 +4,7 @@ using UnityEngine;
 
 public abstract class TowerAbstract : TempBehavior
 {
+    [Header("Tower")]
     [SerializeField] protected TowerCtrl ctrl;
 
 

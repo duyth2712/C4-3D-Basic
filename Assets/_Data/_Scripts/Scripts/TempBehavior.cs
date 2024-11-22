@@ -18,4 +18,8 @@ public class TempBehavior : MonoBehaviour
     {
         //For overide
     }
+    protected virtual void Start()
+    {
+        //For overide
+    }
 }
